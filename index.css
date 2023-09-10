@@ -1,0 +1,209 @@
+﻿body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;    
+    width: 100%;
+    background-image: url("img/header.png");
+}
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    color:lightgray;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.logopage {
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin: 42px;
+}
+.pagenote
+{
+    display:flex;
+    flex-flow: column nowrap;
+    text-align:center;
+    width:100%;
+    color:lightgray;
+    font-size: 18px;
+    font-weight:normal;
+    margin: 20px;
+}
+.login-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#3c3cB0;
+    width: 500px;
+    height: 517px;
+    padding:21px;
+}
+.textbox {
+    display: flex;
+    flex-flow: row, nowrap;
+    align-items: center;
+    width: 459px;
+    height: 39px;
+    border: solid 1px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.aside {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 80%;
+    background-color: white;   
+}
+.mealinfo {
+    text-align: center;
+    width: 80%;
+}
+.mealtitle {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.mealnote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+.mealdetail {
+    width: 100%;
+    text-align: center;    
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-between;    
+    margin:10px;
+}
+.food {
+    width: 320px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;        
+}
+.foodimg {
+    display: flex;
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+    /*border-width: 5px;
+    border-radius: 10px;
+    border-color: white;*/
+}
+.fooddetail {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.button {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: #3c3cb0;
+    border: solid 1px;
+    border-color: transparent;
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    font-size: 18px;
+    height: 58px; 
+}
+
+userpage {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;    
+    width: 100%;        
+}
+top-page {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    background-color: white;
+    color: lightgray;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: solid 1px lightgrey;
+}
+.button-toppage {
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    border-color: #1851AB;
+    color: #1851AB;
+    background-color: transparent;
+    display: flex;
+    flex-flow: column nowrap;
+    border: solid 1px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:20px;
+}
+.personal
+{
+    display:flex;
+    flex-flow: row nowrap;
+    width:342px;
+    height:70px;
+    margin:20px;
+}
+.personal-img {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 70px;
+    height: 70px;
+    border: solid 1px;
+    border-color: #1851A;
+    border-radius: 35px;
+}
+.personal-info {
+    display: flex;
+    flex-flow: column nowrap;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.personal-name {    
+    font-size: 18px;
+    font-weight: 700;
+}
+.personal-description {
+    font-size: 14px;
+    font-weight: 400;
+}
